@@ -75,8 +75,13 @@ php artisan serve
 ```
 
 ## Usage
+Once the application has been started, you can access the homepage by visiting the `/` route.
+Example `http://127.0.0.1:8000/`
+
 To update the cryptocurrency prices, you need to set up a cron job to run the
 ```
 /update_prices
 ```
+Example: `http://127.0.0.1:8000/update_prices`
+
 route at regular intervals this depends on your deployment environment. Or just visit the route manually to get the initial data.
